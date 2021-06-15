@@ -6,7 +6,7 @@ import me.viyaan.tingtong.TingTong;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new TingTong(), config);
+		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();//very tired to make this so I just sticked with the default config
+		new LwjglApplication(new TingTong(), config);//yeah I was very tired and lazy
 	}
 }
